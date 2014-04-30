@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.soundsrc.creditcardsniffer.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All your Card Data belongs to us"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvAid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AID:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tvCardLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Card Label:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tvCardNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Card #:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tvExpire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Card Expire:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>
